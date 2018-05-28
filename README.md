@@ -9,18 +9,6 @@ serverかRaspberry Piの(JST/UTC+0900)
 LiveEのAPIからデータを取得し、必要事項のみを取得、表示用形式に変更
 
 ## 連絡事項の表示
-account = KH10bbs@kashiwanoha.ed.jp
-Google calender API より取得
-calenderへの記入方式は、指定する
-
-| id | Description | example |
-|:---:|:---|:---|
-| 1 | 指定日の表示させたい連絡事項を記入 | 1-日課変更　金曜日課-> 月曜日課　|
-| 200 | テスト期間 | 200-〇〇日 |
-| 202 | 下校時刻の記入| 202-〇〇時下校 |
-| 400 | BBS| 400-message |
-| 600 | change erb | 600-festival |
-
 当日最終授業までは当日の連絡の表示その後は非表示に。
 
 ## テスト期間カウントについて
@@ -43,4 +31,19 @@ Raspberry Pi 1の方で起動と同時に表示する。
 
 ## 劇のタイムテーブル
 タイムテーブルをPDF形式で生徒会とりもらう。
+
+## Google API
+
+account = KH10bbs@kashiwanoha.ed.jp
+Google calender API より取得
+calenderへの記入方式は、指定する
+
+| id | Description | example |
+|:---:|:---|:---|
+| 1 | 指定日の表示させたい連絡事項を記入 | 1-日課変更　金曜日課-> 月曜日課　|
+| 200 | テスト期間 | 200-〇〇日 |
+| 202 | 下校時刻の記入| 202-〇〇時下校 |
+| 400 | BBS| 400-message |
+| 600 | change erb | 600-festival |
+
 
